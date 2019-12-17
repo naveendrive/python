@@ -1,4 +1,4 @@
-#This module used to convert the given timezone.
+#This module used to convert one timezones to another.
 #steps to work with multiple timezones using pytz module
 #****************************************************************************************************
 # Step-1 : create a datetime object
@@ -14,10 +14,12 @@ from datetime import datetime
 import pytz
 global convert_from,convert_to,strftime_format
 
+#Variable declartion 
 convert_from="Asia/Kolkata"
 convert_to="UTC"
 strftime_format="%Y-%m-%d %H.%M.%S.%Z"
 
+#time_zone convertion method
 
 def timezone_converter(convert_from,convert_to,strftime_format):
     # step-1
