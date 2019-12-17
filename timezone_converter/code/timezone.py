@@ -8,7 +8,7 @@
 # Step-5 : convert source timezone object to target timezone object
 #********************************************************************************************************
 
-s
+
 #Importing required modules:
 from datetime import datetime
 import pytz
