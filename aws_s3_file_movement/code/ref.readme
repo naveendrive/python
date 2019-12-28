@@ -1,0 +1,5 @@
+There are 2 files used in this module.
+1. aws_s3_file_movement.config
+2. aws_s3_file_movement.py
+
+I have used AWS CLI to perform this operations
